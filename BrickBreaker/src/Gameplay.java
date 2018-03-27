@@ -19,6 +19,7 @@ public class Gameplay extends JPanel implements KeyListener,ActionListener  {
 	
 	private boolean play=false;//starting game will not run
 	private int score=0;
+	
 	private int totalbricks=21;//map size is 7*3
 	private Timer time;//Timer class to set time of ball move
 	private int delay=8;//speed of ball
